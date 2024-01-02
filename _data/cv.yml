@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Rishabh Jain
+    - name: Location
+      value: Bengaluru, India
     - name: Languages
       value: English, Hindi
 
@@ -20,13 +22,13 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Software Engineer 1
-      institution: Arista Networks
+    - title: Software Engineer
+      institution: Arista Networks, Bengaluru, India
       year: 2023 - ongoing
       description:
         - Working on Arista Extensible Operating System (EOS)
     - title: Software Engineering Intern
-      institution: General Electric Healthcare
+      institution: General Electric Healthcare, Bengaluru, India
       year: May-July 2023
       description:
         - Worked on deep learning models and computer vision algorithms for patient monitoring.
@@ -34,22 +36,18 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Software Engineer 1
-      institution: Arista Networks
-      year: 2023 - ongoing
+    - title: Research Intern
+      institution: LASII Lab, IIT Ropar
+      year: May-Aug 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Software Engineering Intern
-      institution: General Electric Healthcare
-      year: May-July 2023
+        - Worked on video transformers to develop a pipeline for multi-label detection of human actions in videos as in the ACM Multimedia 2023 Multimedia Grand Challenges.
+        - Co-authored paper “MAGIC-TBR- Multiview Attention Fusion for Transformer-based Bodily Behavior Recognition in Group Settings” which was accepted in the ACM MM 2023 Conference.
+    - title: Undergraduate Researcher
+      institution: Under Dr Shweta Jain, IIT Ropar
+      year: 2022-2023
       description:
-        - Description 1.
-        - Description 2.
+        - Developed strategies to optimise costs involved while training deep federated recommender systems.
+        - Studied and implemented client selection algorithms on MovieLens datasets.
 
 - title: Open Source Projects
   type: time_table
@@ -61,27 +59,35 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - 2nd Place in the Bodily Behaviour Recognition Challenge at the “MultiMediate- Multi-modal Group Behaviour Analysis for Artificial Mediation Grand Challenge” at ACM MM’23 Ottawa, Canada Oct 29 - Nov 3, 2023
+    - year: 2020
       items: 
-        - Max Planck Medal
+        - Participated in the prestigious coding competition ICPC Asia Amritapuri Regionals 2020 after qualifying ICPC Amritapuri Preliminary 2020, ranking 366 out of 8000+ teams.
+        - Two time recepient of the Institute Academic Merit Scholarship IIT Ropar
+        - Participated in ABU-ROBOCON Robotics Competition 2020, qualifying for the national round of DD-ROBOCON 2020 held in an online mode at IIT Delhi.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Artificial Intelligence and Machine Learning
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Computer Vision
+        - Large Language Models
+        - Reinforcement Learning
+    - title: Computer Science
       items:
-        - Description 1.
-        - Description 2.
+        - Backend development
+        - Relational database engines
+        - Operating systems and multiprocessing
+    - title: Math
+      items:
+        - Probability 
+        - Linear Algebra
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Guitar, Badminton
+    - <u>Society:</u> Space Technology and AI
