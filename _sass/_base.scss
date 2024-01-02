@@ -4,13 +4,16 @@
 
 // Typography
 
-p,
-h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+h1 {
+  color: var(--global-header-color);
+}
+
+p,
 em,
 div,
 li,
@@ -138,7 +141,7 @@ blockquote {
   }
 
   .card-title {
-    color: var(--global-text-color);
+    color: var(--global-header-color);
   }
 
   .card-item {
@@ -225,7 +228,7 @@ blockquote {
   border: 1px solid var(--global-divider-color);
 
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-header-color);
   }
 
   a:hover {
@@ -238,7 +241,7 @@ blockquote {
 }
 
 .dropdown-item {
-  color: var(--global-text-color);
+  color: var(--global-header-color);
 
   &:hover {
     color: var(--global-hover-color);
@@ -258,7 +261,7 @@ blockquote {
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-header-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -339,7 +342,7 @@ blockquote {
   padding: 0;
   border: 0;
   background-color: inherit;
-  color: var(--global-text-color);
+  color: var(--global-header-color);
 
   &:hover {
     color: var(--global-hover-color);
@@ -356,7 +359,7 @@ blockquote {
 
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-header-color);
         transition-property: all 0.2s ease-in-out;
       }
 
@@ -587,7 +590,7 @@ footer.sticky-bottom {
 
     &:hover {
       .card-title {
-        color: var(--global-theme-color);
+        color: var(--global-header-color);
       }
     }
   }
@@ -696,6 +699,7 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        color: var(--global-header-color);
       }
 
       .author {
@@ -998,7 +1002,7 @@ nav[data-toggle="toc"] {
   }
 
   .nav>li>a {
-    color: var(--global-text-color);
+    color: var(--global-header-color);
     font-size: .75rem;
 
     &:hover {
