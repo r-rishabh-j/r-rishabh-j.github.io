@@ -9,7 +9,8 @@ h3,
 h4,
 h5,
 h6,
-h1 {
+h1,
+strong {
   color: var(--global-header-color);
 }
 
@@ -17,8 +18,7 @@ p,
 em,
 div,
 li,
-span,
-strong {
+span {
   color: var(--global-text-color);
 }
 
@@ -34,6 +34,7 @@ table {
 
   th {
     font-weight: bold;
+    color: var(--global-theme-color);
   }
 }
 
