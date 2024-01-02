@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - r-rishabh-j
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - r-rishabh-j/MAGIC-TBR
+  - r-rishabh-j/LTC-portal-iitrpr
+  - r-rishabh-j/RISC-V-Simulator
+  - r-rishabh-j/academic-portal-dbms
+  - r-rishabh-j/wearOS-sensors
+  - r-rishabh-j/simple-network-storage
