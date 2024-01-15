@@ -49,12 +49,20 @@
         - Developed strategies to optimise costs involved while training deep federated recommender systems.
         - Studied and implemented client selection algorithms on MovieLens datasets.
 
-- title: Open Source Projects
-  type: time_table
+- title: Technical Skills
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - <u>Programming Languages:</u> Python, C, C++, Java, RISC-V 32I ISA
+    - <u>Query Languages:</u> PostgreSQL, PL/pgSQL, PostGIS
+    - <u>Dev tools:</u>  Git, Bash, Powershell, Docker, Postman, Linux, Anaconda, Google Cloud App Engine(GCP)
+    - <u>Libraries/Frameworks:</u> Flask, OpenCV, Tensorflow, PyTorch, OpenAI Gym, Numpy, Pandas
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: WearOS
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
