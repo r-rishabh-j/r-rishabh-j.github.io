@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Software Engineer at Arista Networks
+subtitle: Software Engineer
 
 profile:
   align: left
