@@ -42,6 +42,7 @@
       description:
         - Worked on video transformers to develop a pipeline for multi-label detection of human actions in videos as in the ACM Multimedia 2023 Multimedia Grand Challenges.
         - Co-authored paper “MAGIC-TBR- Multiview Attention Fusion for Transformer-based Bodily Behavior Recognition in Group Settings” which was accepted in the ACM MM 2023 Conference.
+        - Co-authored paper “Multi-View Attention Fusion for Explainable Body Language Behavior Recognition”, currently in review at IEEE Transactions on Affective Computing
     - title: Undergraduate Researcher
       institution: Under Dr Shweta Jain, IIT Ropar
       year: 2022-2023
