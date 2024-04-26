@@ -18,6 +18,23 @@
         - Studied Computer Science and Engineering with an Honors in Artificial Intelligence
         - Honors project focussed on federated learning and recommender systems
 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Artificial Intelligence and Machine Learning
+      items: 
+        - Computer Vision
+        - Large Language Models
+        - Reinforcement Learning
+    - title: Computer Science
+      items:
+        - Backend development
+        - Relational database engines
+        - Operating systems and multiprocessing
+    - title: Math
+      items:
+        - Probability 
+        - Linear Algebra
 
 - title: Work Experience
   type: time_table
@@ -58,13 +75,6 @@
     - <u>Dev tools:</u>  Git, Bash, Powershell, Docker, Postman, Linux, Anaconda, Google Cloud App Engine(GCP)
     - <u>Libraries/Frameworks:</u> Flask, OpenCV, Tensorflow, PyTorch, OpenAI Gym, Numpy, Pandas
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: WearOS
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -76,24 +86,6 @@
         - Participated in the prestigious coding competition ICPC Asia Amritapuri Regionals 2020 after qualifying ICPC Amritapuri Preliminary 2020, ranking 366 out of 8000+ teams.
         - Two time recepient of the Institute Academic Merit Scholarship IIT Ropar
         - Participated in ABU-ROBOCON Robotics Competition 2020, qualifying for the national round of DD-ROBOCON 2020 held in an online mode at IIT Delhi.
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Artificial Intelligence and Machine Learning
-      items: 
-        - Computer Vision
-        - Large Language Models
-        - Reinforcement Learning
-    - title: Computer Science
-      items:
-        - Backend development
-        - Relational database engines
-        - Operating systems and multiprocessing
-    - title: Math
-      items:
-        - Probability 
-        - Linear Algebra
 
 - title: Other Interests
   type: list
