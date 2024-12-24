@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Some of my key projects
-nav: true
+nav: false
 nav_order: 5
 display_categories: [work, fun]
 horizontal: false
