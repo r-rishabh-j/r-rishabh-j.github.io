@@ -17,8 +17,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a robotics and artificial intelligence enthusiast. An Indian Institute of Technology Ropar graduate with a BTech Honors in Computer Science and Artificial Intelligence, my research interests primarily revolve around computer vision.
+
 I recently started exploring natural language processing, and am working on some cool projects!
-
-I closely follow the latest space tech 🚀 developments in the world. Hit me up to engage in an endless discussion on space exploration!
-
 During my leisure time, you can find me in the badminton court 🏸 or playing the guitar 🎸.
