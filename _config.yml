@@ -6,7 +6,7 @@ title: Rishabh Jain # the website title (if blank, full name will be used instea
 first_name: Rishabh
 middle_name: 
 last_name: Jain
-email: rishabhj@arista.com
+email: rj2790@columbia.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Rishabh Jain's porfolio
 footer_text: 
@@ -173,7 +173,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  # limit: # leave blank to include all the news in the `_news` folder
 
 # latest_posts:
 #   enabled: true
