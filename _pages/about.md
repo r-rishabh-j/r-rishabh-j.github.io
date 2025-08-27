@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming MSCS @Columbia University
+subtitle: MSCS(ML) @Columbia University
 
 profile:
   align: left
