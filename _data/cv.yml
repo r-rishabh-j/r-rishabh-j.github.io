@@ -4,18 +4,24 @@
     - name: Full Name
       value: Rishabh Jain
     - name: Location
-      value: Bengaluru, India
-    - name: Languages
-      value: English, Hindi
+      value: New York City, NY, United States
+    # - name: Languages
+    #   value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Technology with Honors
-      institution: Indian Institute of Technology Ropar, India
-      year: 2019-2023
+    - title: Master of Science, Computer Science (Machine Learning track)
+      institution: Columbia University, New York
+      year: Aug 2025 - Dec 2026
       description: 
-        - Studied Computer Science and Engineering with an Honors in Artificial Intelligence
+        - MSCS @ Columbia Engineering
+        - Focusing on foundational Deep Learning and Computer Vision 
+    - title: Bachelor of Technology(Honors), Computer Science and Engineering with Concentration in AI
+      institution: Indian Institute of Technology Ropar, India
+      year: Jul 2019 - May 2023
+      description: 
+        - Studied Computer Science and Engineering with Artificial Intelligence
         - Honors project focussed on federated learning and recommender systems
 
 - title: Academic Interests
@@ -28,7 +34,7 @@
         - Reinforcement Learning
     - title: Computer Science
       items:
-        - Backend development
+        - Backend systems development
         - Relational database engines
         - Operating systems and multiprocessing
     - title: Math
@@ -41,14 +47,16 @@
   contents:
     - title: Software Engineer
       institution: Arista Networks, Bengaluru, India
-      year: 2023 - ongoing
+      year: Jul 2023 - Jun 2025
       description:
-        - Working on Arista Extensible Operating System (EOS)
+        - Contributed to SDN and OS development in 16 core Arista Software Forwarding Engine repositories for throughput, data-plane and control-plane enhancements in the Arista Multi-Domain Segmentation Service.
+        - Promoted to EngProd team in January 2025. Built a new auto-build tool used across all teams in Arista to bundle external AlmaLinux packages deps in Arista EOS to enable a smooth company-wide version control transition from Perforce to Git.
     - title: Software Engineering Intern
       institution: General Electric Healthcare, Bengaluru, India
       year: May-July 2022
       description:
-        - Worked on deep learning models and computer vision algorithms for patient monitoring.
+        - Implemented a real-time computer vision based autonomous patient monitoring pipeline in GE's Edison Digital Health Platform
+        - Ablated YOLOv5 to create a lightweight model, and trained it on self-annotated and open-source datasets for over 280 GPU hours
 
 - title: Research Experience
   type: time_table
