@@ -13,13 +13,13 @@
   contents:
     - title: Master of Science, Computer Science (Machine Learning track)
       institution: Columbia University, New York
-      year: Aug 2025 - Dec 2026
+      year: Aug'25 - Dec'26
       description: 
         - MSCS @ Columbia Engineering
         - Focusing on foundational Deep Learning and Computer Vision 
     - title: Bachelor of Technology(Honors), Computer Science and Engineering with Concentration in AI
       institution: Indian Institute of Technology Ropar, India
-      year: Jul 2019 - May 2023
+      year: Jul'19 - May'23
       description: 
         - Studied Computer Science and Engineering with Artificial Intelligence
         - Honors project focussed on federated learning and recommender systems
@@ -47,7 +47,7 @@
   contents:
     - title: Software Engineer
       institution: Arista Networks, Bengaluru, India
-      year: Jul 2023 - Jun 2025
+      year: Jul'23 - Jun'25
       description:
         - Contributed to SDN and OS development in 16 core Arista Software Forwarding Engine repositories for throughput, data-plane and control-plane enhancements in the Arista Multi-Domain Segmentation Service.
         - Promoted to EngProd team in January 2025. Built a new auto-build tool used across all teams in Arista to bundle external AlmaLinux packages deps in Arista EOS to enable a smooth company-wide version control transition from Perforce to Git.
@@ -63,7 +63,7 @@
   contents:
     - title: Research Intern
       institution: LASII Lab, IIT Ropar
-      year: May-Aug 2023
+      year: May-Aug'23
       description:
         - Worked on video transformers to develop a pipeline for multi-label detection of human actions in videos as in the ACM Multimedia 2023 Multimedia Grand Challenges.
         - Co-authored paper “MAGIC-TBR- Multiview Attention Fusion for Transformer-based Bodily Behavior Recognition in Group Settings” which was accepted in the ACM MM 2023 Conference.
