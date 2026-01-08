@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: Rishabh_Jain_resume.pdf
+cv_pdf: Rishabh_Jain-cv.pdf
 description: Curriculum Vitae
 toc:
   sidebar: left
