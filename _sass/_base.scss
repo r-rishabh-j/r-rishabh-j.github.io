@@ -4,6 +4,10 @@
 
 // Typography
 
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 h2,
 h3,
 h4,
@@ -374,6 +378,28 @@ blockquote {
 
   .contact-note {
     font-size: 0.8rem;
+  }
+}
+
+// Social inline (smaller, below profile image)
+.social-inline {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 0.75rem;
+
+  a {
+    margin: 0 0.3rem;
+
+    i::before {
+      color: var(--global-header-color);
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+      i::before {
+        color: var(--global-theme-color);
+      }
+    }
   }
 }
 

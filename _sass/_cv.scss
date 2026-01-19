@@ -1,4 +1,18 @@
 /*****************************
+ * CV PDF Viewer styles
+ *****************************/
+
+.cv-pdf-viewer {
+  width: 100%;
+}
+
+.cv-pdf-viewer iframe {
+  width: 100%;
+  height: 85vh;
+  border: none;
+}
+
+/*****************************
  * CV shared styles
  *****************************/
 
