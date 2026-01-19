@@ -2,11 +2,17 @@ github_users:
   - r-rishabh-j
 
 github_repos:
-  - r-rishabh-j/MAGIC-TBR
-  - r-rishabh-j/LTC-portal-iitrpr
+  - r-rishabh-j/batched_specdec
+  - r-rishabh-j/distillSpec
+  - r-rishabh-j/3DEgoACT
+  - r-rishabh-j/ITBench-NFR/itbench-nfr
+  - r-rishabh-j/ITBench-NFR/itbench-nfr
   - r-rishabh-j/RISC-V-Simulator
+  - r-rishabh-j/MAGIC_TBR_Extended
+  - r-rishabh-j/MAGIC-TBR
   - r-rishabh-j/book-cover-recognition
   - r-rishabh-j/face-search-api
-  - r-rishabh-j/academic-portal-dbms
-  - r-rishabh-j/wearOS-sensors
   - r-rishabh-j/simple-network-storage
+  - r-rishabh-j/academic-portal-dbms
+  - r-rishabh-j/LTC-portal-iitrpr
+  - r-rishabh-j/wearOS-sensors

@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: Some of my open source work and projects
-nav: false
+nav: true
 nav_order: 4
 ---
 
@@ -18,7 +18,7 @@ nav_order: 4
 </div>
 {% endif %}
 
----
+<!-- --- -->
 
 <!-- ## User Stats -->
 
@@ -38,8 +38,8 @@ nav_order: 4
   {% include repository/repo_trophies.html username=user %}
   </div> -->
 
----
+<!-- --- -->
 
-{% endfor %}
+<!-- {% endfor %}
 {% endif %}
-{% endif %}
+{% endif %} -->
