@@ -2,11 +2,11 @@ github_users:
   - r-rishabh-j
 
 github_repos:
+  - r-rishabh-j/codeNapkin
   - r-rishabh-j/batched_specdec
   - r-rishabh-j/distillSpec
   - r-rishabh-j/3DEgoACT
-  - r-rishabh-j/ITBench-NFR/itbench-nfr
-  - r-rishabh-j/ITBench-NFR/itbench-nfr
+  - ITBench-NFR/itbench-nfr
   - r-rishabh-j/RISC-V-Simulator
   - r-rishabh-j/MAGIC_TBR_Extended
   - r-rishabh-j/MAGIC-TBR

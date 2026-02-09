@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined ROAM Lab at Columbia to work on robot foundation models and RL under Dr. Matei Ciocarlie!
+Joined ROAM Lab at Columbia to work on robot manipulation under Dr. Matei Ciocarlie!

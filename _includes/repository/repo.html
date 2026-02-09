@@ -1,14 +1,43 @@
-{% assign repo_url =  include.repository | split: '/' %}
+{% assign repo_url = include.repository | split: '/' %}
+{% assign owner = repo_url[0] %}
+{% assign repo_name = repo_url[1] %}
 
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img class="repo-img-light w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}">
-    <img class="repo-img-dark w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}">
+<div class="repo-card-wrapper p-2">
+  <a href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer" class="repo-card-link">
+    <div class="repo-card">
+      <div class="repo-card-header">
+        <i class="fa-solid fa-book-bookmark repo-icon"></i>
+        <span class="repo-name">{{ repo_name }}</span>
+      </div>
+      <p class="repo-description" id="desc-{{ repo_name | slugify }}">Loading...</p>
+      <div class="repo-card-footer">
+        <span class="repo-stat" id="lang-{{ repo_name | slugify }}"></span>
+        <span class="repo-stat"><i class="fa-regular fa-star"></i> <span id="stars-{{ repo_name | slugify }}">-</span></span>
+        <span class="repo-stat"><i class="fa-solid fa-code-fork"></i> <span id="forks-{{ repo_name | slugify }}">-</span></span>
+      </div>
+    </div>
   </a>
 </div>
+
+<script>
+  fetch("https://api.github.com/repos/{{ owner }}/{{ repo_name }}")
+    .then(res => res.json())
+    .then(data => {
+      const slug = "{{ repo_name | slugify }}";
+      const descEl = document.getElementById("desc-" + slug);
+      const starsEl = document.getElementById("stars-" + slug);
+      const forksEl = document.getElementById("forks-" + slug);
+      const langEl = document.getElementById("lang-" + slug);
+      if (descEl) descEl.textContent = data.description || "No description available.";
+      if (starsEl) starsEl.textContent = data.stargazers_count || 0;
+      if (forksEl) forksEl.textContent = data.forks_count || 0;
+      if (langEl && data.language) {
+        langEl.innerHTML = '<span class="lang-dot"></span> ' + data.language;
+      }
+    })
+    .catch(() => {
+      const slug = "{{ repo_name | slugify }}";
+      const descEl = document.getElementById("desc-" + slug);
+      if (descEl) descEl.textContent = "Could not load repository info.";
+    });
+</script>
